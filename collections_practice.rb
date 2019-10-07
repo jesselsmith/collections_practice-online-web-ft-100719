@@ -33,3 +33,13 @@ def reverse_array(array)
   }
   reversed_array
 end
+
+def kesha_maker(array)
+  keshad = []
+  array.each do |word|
+    letters = word.split(//)
+    letters[2] = '$'
+    keshad << letters.join
+  end
+  keshad
+end
