@@ -49,3 +49,20 @@ def find_a(array)
     string.start_with?('a')
   }
 end
+
+def sum_array(array)
+  array.inject {|sum, number|
+    sum + number
+  }
+end
+
+def add_s(array)
+  array.map.with_index do |string, i|
+    if i == 1
+      string
+    else
+      "#{string}s"
+    end
+  end 
+end
+  
