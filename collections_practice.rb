@@ -25,3 +25,13 @@ def swap_elements(array)
   end
   new_array
 end
+
+swap_elements_from_to(array, index, destination_index)
+  temp = array[index]
+  new_array = array
+  new_array[index] = new_array[destination_index]
+  new_array[destination_index] = temp
+  new_array
+end
+
+
