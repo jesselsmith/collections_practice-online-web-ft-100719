@@ -21,6 +21,7 @@ def swap_elements(array)
       new_array.insert(1, element)
     else
       new_array << element
+    end
   end
   new_array
 end
