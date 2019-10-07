@@ -13,3 +13,14 @@ def sort_array_char_count(array)
     a.length <=> b.length
   }
 end
+
+def swap_elements(array)
+  new_array = []
+  array.each_with_index do |element, i|
+    if i == 2
+      new_array.insert(1, element)
+    else
+      new_array << element
+  end
+  new_array
+end
