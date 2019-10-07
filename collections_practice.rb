@@ -25,3 +25,11 @@ def swap_elements_from_to(array, index, destination_index)
   new_array[destination_index] = temp
   new_array
 end
+
+def reverse_array(array)
+  reversed_array = []
+  array.reverse_each{|item|
+    reversed_array << item
+  }
+  reversed_array
+end
