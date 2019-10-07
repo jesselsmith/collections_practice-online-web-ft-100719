@@ -33,5 +33,3 @@ swap_elements_from_to(array, index, destination_index)
   new_array[destination_index] = temp
   new_array
 end
-
-
